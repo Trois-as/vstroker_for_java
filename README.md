@@ -17,11 +17,13 @@ javac -cp .;commons-lang3-3.2.1.jar;usb4java-1.2.0.jar;libusb4java-1.2.0-xxx* Te
 Run the program with this :
 
 Under unix:
-java -cp '.:commons-lang3-3.2.1.jar:usb4java-1.2.0.jar:libusb4java-1.2.0-xxx*' TestVstroker
+java -cp '.:commons-lang3-3.2.1.jar:usb4java-1.2.0.jar:libusb4java-1.2.0-xxx*' TestVstroker 10**
 
 Under windows:
-java -cp .;commons-lang3-3.2.1.jar;usb4java-1.2.0.jar;libusb4java-1.2.0-xxx* TestVstroker
+java -cp .;commons-lang3-3.2.1.jar;usb4java-1.2.0.jar;libusb4java-1.2.0-xxx* TestVstroker 10**
 
 * replace libusb4java-1.2.0-xxx by the corresponding jar of your OS and CPU architecture : by example
 on windows 7 64bits use libusb4java-1.2.0-windows-x86_64.jar and on 32 linux OS use 
 libusb4java-1.2.0-linux-x86.jar.
+
+** this parameters is the number of seconds to run the test
